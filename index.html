@@ -106,16 +106,18 @@
 
     <div class="component-container">
         <h3>Drawer</h3>
-        <div class="drawer">
-            <h4>Title</h4>
-            <p>subtext</p>
-            <ul>
-                <li>Inbox</li>
-                <li>Star</li>
-                <li>Sent Mail</li>
-                <li>Drafts</li>
-            </ul>
-        </div>
+        <aside class="drawer">
+            <h4 class="drawer-title">Title</h4>
+            <p class="drawer-text">subtext</p>
+            <nav>
+                <ul>
+                    <li class="drawer-item"><a class="flex flex-align-center drawer-link" href=""><i class="drawer-icon fas fa-inbox"></i><span>Inbox</span></a></li>
+                    <li class="drawer-item drawer-item-active"><a class="flex flex-align-center drawer-link drawer-link-active" href=""><i class="drawer-icon drawer-icon-active fas fa-star"></i><span>Star</span></a></li>
+                    <li class="drawer-item"><a class="flex flex-align-center drawer-link" href=""><i class="drawer-icon fas fa-paper-plane"></i><span>Sent Mail</span></a></li>
+                    <li class="drawer-item"><a class="flex flex-align-center drawer-link" href=""><i class="drawer-icon fas fa-envelope-open"></i><span>Drafts</span></a></li>
+                </ul>
+            </nav>
+        </aside>
     </div>
 
     <!-- || Cards -->
